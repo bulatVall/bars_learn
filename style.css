@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    background: #378BA4;
+    color: #fff;
+}
+button:hover {
+    background: #81BECE;
+}
+a{
+    color: #012E4A;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px Solid #81BECE;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+#secretInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#secretMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
